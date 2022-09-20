@@ -1390,17 +1390,23 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+  text-align: center!important;
 }
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
   color: #4154f1;
 }
-.contact .info-box h3 {
-  font-size: 20px;
+.contact .info-box h4 {
   color: #012970;
   font-weight: 700;
-  margin: 20px 0 10px 0;
+  /* margin: 20px 0 10px 0; */
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .contact .info-box h4 {
+    margin-left: 10px;
+  }
 }
 .contact .info-box p {
   padding: 0;
@@ -1987,7 +1993,7 @@ section {
 }
 .footer .footer-top .footer-info .logo img {
   max-height: 40px;
-  margin-right: 6px;
+  /* margin-right: 6px; */
 }
 .footer .footer-top .footer-info .logo span {
   font-size: 30px;
@@ -2029,12 +2035,6 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #d0d4fc;
-  font-size: 12px;
-  line-height: 0;
 }
 .footer .footer-top .footer-links ul li {
   padding: 10px 0;
